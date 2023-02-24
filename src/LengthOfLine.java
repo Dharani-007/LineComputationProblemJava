@@ -22,12 +22,17 @@ public class LengthOfLine {
         System.out.println(y2);
         double LengthOfLine = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
         System.out.println(LengthOfLine);
-        if(x1==x2 && y1==y2){
+        if (x1 == x2 && y1 == y2) {
             System.out.println("Length of two line are same");
 
+        } else if (x1 > x2 && y1 > y2) {
+            System.out.println("X1,Y1 is greter than X2,y2");
+        } else {
+            System.out.println("X2,Y2 is greter than X1,y1");
         }
 
     }
+
 
     public static void main(String[] args) {
 
