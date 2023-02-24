@@ -25,9 +25,12 @@ public class LengthOfLine {
         if (x1 == x2 && y1 == y2) {
             System.out.println("Length of two line are same");
 
-        } else if (x1 > x2 && y1 > y2) {
+        }
+        else if (x1 > x2 && y1 > y2) {
             System.out.println("X1,Y1 is greter than X2,y2");
-        } else {
+        }
+        else {
+
             System.out.println("X2,Y2 is greter than X1,y1");
         }
 
